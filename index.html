@@ -1,1 +1,401 @@
-just-de-test
+
+<!doctype html>
+<html>
+<head>
+	
+	<meta charset="UTF-8"><link rel="icon" href="p.ico" type="image/x-icon">
+	
+<script>(function t(te){document.title=te;setTimeout(function(){t(te.substr(1)+te.substr(0,1));},105);}("01110000 01100001 01111000 01101001 "))
+</script>
+
+	<link rel="stylesheet" href="1.css"><link rel="stylesheet" href="s.css">
+<script src="j.js"></script>
+	
+<script>
+function dosomething(){}$(document).keypress(function(a){13==a.keyCode&&$("#1").click()});$(document).ready(function(){$("textarea").click(function(){$(this).select()})});$(document).ready(function(){$(".e").delay(777).animate({width:"100%"},{duration:3E3,specialEasing:{width:"easeOutExpo"},complete:function(){$("a.i img").animate({opacity:1},100).flash()}});$(".b").delay(777).animate({opacity:1},2222);$(".O").click(function(){$(".G").fadeIn(1E3);$(".bb h5").delay(12E3).fadeIn(1200);$(".c").animate({marginTop:"-220px"},{duration:2E3,specialEasing:{marginTop:"easeOutExpo"}});$("a.i,.e,.b").fadeOut(900);
+  
+$("a.i img").remove();$(".s li.i").flash().typewriter();$(".n").delay(3E3).animate({top:"110px"},{duration:2500,specialEasing:{width:"easeOutExpo"},complete:function(){$(this).remove();$(".s li.i").flash().stop(!0).fadeOut(500);for(var a=1;a<=$(".H").length;a++)$(".H").eq(a-1).delay(500).delay(500*(a-1)).fadeIn(500);setTimeout(function(){$(".c").animate({marginTop:"-355px"},{duration:2E3,specialEasing:{marginTop:"easeOutExpo"}});$(".Q").hide();
+  
+$(".m").show();$(".L").fadeTo(50,.3).fadeIn(5500);$(".u,.v").delay(1E3).animate({width:"0px"},{duration:2E3,specialEasing:{width:"easeOutExpo"},complete:function(){$(this).remove();$(".L").fadeOut(1E3)}});setTimeout(function(){$(".p").fadeIn(000,function(){$(".bx,.bx-c").delay(300).slideDown(1E3,function(){$(".bx,.bx-c").jScrollPane({verticalDragMinHeight:103,verticalDragMaxHeight:103})})})},500)},2500)}});return!1});var a=$("div.bd div[id]");
+  
+a.hide().filter(":first").slideDown(1E3);$("ul#m li a").click(function(){a.hide();a.filter(this.hash).slideDown(1E3);$("ul#m li a").removeClass("z");$(this).addClass("z");$(".bx,.bx-c").jScrollPane({verticalDragMinHeight:103,verticalDragMaxHeight:103});return!1}).filter(":first").click()});
+</script>
+	  
+<script>(function(a){a.fn.flash=function(b){return this.each(function(){function c(){--e;f.fadeOut(d.speed,function(){f.fadeIn(d.speed,function(){e?c():d.callback()})})}var d=a.extend({},a.fn.flash.defaults,b),e=d.count,f=a(this);c()})};a.fn.flash.defaults={count:777,speed:600,callback:function(){return!1}}})(jQuery);function h(a){a=document.getElementById(a);a.style.display="none"==a.style.display?"block":"none"}function p(){var p=prompt("Please input PIN.");if(p.toLowerCase()=="7735"){document.getElementById("9").click();}reload.this();}
+</script>
+	
+<script src="e.js"></script>
+<script src="t.js"></script>
+<script src="s.js"></script>
+<script src="m.js"></script>
+
+
+<script language="Javascript" src="a/rsa.js" type="text/javascript"></script>
+<script language="Javascript" src="a/aes-enc.js" type="text/javascript"></script>
+<script language="Javascript" src="a/sha1.js" type="text/javascript"></script>
+<script language="Javascript" src="a/base64.js" type="text/javascript"></script>
+<script language="Javascript" src="a/pgpubkey.js" type="text/javascript"></script>
+<script language="Javascript" src="a/mouse.js" type="text/javascript"></script>
+<script language="Javascript" src="a/pgencode.js" type="text/javascript"></script>
+
+<script language="Javascript" type="text/javascript">
+
+var keytyp = -1;
+var keyid  = '';
+var pubkey = '';
+
+function getkey()
+{
+ var pu=new getPublicKey(document.s.pubkey.value);
+ if(pu.vers == -1) return;
+
+ document.s.vers.value=pu.vers;
+ document.s.user.value=pu.user;
+ document.s.keyid.value=pu.keyid;
+
+ pubkey = pu.pkey.replace(/\n/g,'');
+ document.s.pkey.value=pubkey;
+ document.s.pktype.value=pu.type;
+}
+
+function encrypt()
+{
+ keyid='0000000000000000';
+ if(document.s.keyid.value.length) keyid=document.s.keyid.value;
+ if(keyid.length != 16)
+ {
+   alert('Invalid Key Id');
+   return;
+ } 
+
+ keytyp = -1;
+ if(document.s.pktype.value == 'ELGAMAL') keytyp = 1;
+ if(document.s.pktype.value == 'RSA')     keytyp = 0;
+ if(keytyp == -1)
+ {
+   alert('Unsupported Key Type');
+   return;
+ } 
+
+ 
+
+ var text=document.t.text.value+'\r\n';
+ document.t.text.value=doEncrypt(keyid, keytyp, pubkey, text);
+
+}
+
+</script>
+<script>
+window.onload = function(){
+  document.forms['s'].submit();
+}
+</script>
+<script>
+
+var colors = ['yellow', 'white', 'green'];
+var random_color = colors[Math.floor(Math.random() * colors.length)];
+
+function func()
+{
+    document.getElementById("text").style.color=random_color;
+}
+</script>
+</head>
+
+<body>
+<div id="W">
+	<div class="c">
+		<div class="T">
+			<div class="e">
+			</div>
+			<div class="D">
+				<br>
+				<img src="0.png">
+				
+				<div class="b">
+				</div>
+				<a onClick="p()" class="i"><img id="1" src="z.png"></a>
+			</div>
+		</div>
+		
+		<div class="G">
+			<div class="Q cl">
+				<div class="k">
+					<div class="r lf">
+						<div class="n">
+						</div>
+					</div>
+					
+	<ul class="s lf">
+	<li style="color:#808080" class="i">-> Please Wait......</li>
+	<li class="H">-> Pin Accepted</li>
+	
+	<li class="H">-> Logged In</li>
+	<li class="H">-> Welcome ...</li>
+
+	</ul>
+	
+				</div>
+			</div>
+			<div class="m">
+				<div class="L">
+				</div>
+				<div class="u">
+				</div>
+				<div class="v">
+				</div>
+				<div class="p">
+					<div class="x lf">
+						<div class="f">
+							<div class="fl">
+								<div class="rt y">
+									<img src="h.jpg"><img src="s.jpg">
+								</div>
+							</div>
+						</div>
+	
+	<ul id="m" class="rg">
+		<li><a href="#I" class="z">Introduction</a></li>
+		<li><a href="#P" class="z">PGP Public Key</a></li>
+		<li><a href="#C" class="z">Two Factor Auth</a></li>
+		<li><a href="#S" class="z">Stay Connected</a></li>
+	</ul>
+						<h6><span id="text" onclick="func()">Thanks for visiting. Have a nice day... ;-)</span></span></h6>
+					</div>
+	
+	<div class="bd lf">
+		<div id="I" class="ba lf">
+		<div class="bx">
+			
+			<p class="j">Welcome to my www. Let me introduce my self!</p>
+			<table>
+				<tr>
+					<td>Name</td>
+					<td width="2%">:</td>
+					<td>Sir Paxi Duitjana Wang <i>a.k.a</i> <font title="Sri Paksi Dwijo Nawanggono" color="transparent">Sri Paksi Dwijo Nawanggono</font></td>
+				</tr>
+				
+				<tr>
+					<td>Nickname</td>
+					<td>:</td>
+					<td>Paxi</td>
+				</tr>
+				
+				<tr>
+					<td>Gender</td>
+					<td>:</td>
+					<td>Male</td>
+				</tr>
+				
+				<tr>
+					<td>Height</td>
+					<td>:</td>
+					<td>169cm</td>
+				</tr>
+				
+				<tr>
+					<td>Hobby</td>
+					<td>:</td>
+					<td>Learning, Programming & Growing</td>
+				</tr>
+				<tr>
+					
+					<td>Marital Status</td>
+					<td>:</td><td>Married</td>
+				</tr>
+				
+				<tr>
+					<td><span title="Place">P</span> & <span title="Date">D</span> of Birth</td>
+					<td>:</td>
+					<td>Malang, August 17<sup>th</sup>, 1992</td>
+				</tr>
+				
+				<tr>
+					<td colspan="3"><img title="Country of Birth: Indonesia" src="i.png"></td>
+				</tr>
+				
+				<tr>
+					<td>Lives in</td>
+					<td>:</td>
+					<td>Labuan Bajo, Flores Island - East Nusa Tenggara - INDONESIA</td>
+				</tr>
+				
+				<tr>
+					<td>Official Web</td>
+					<td>:</td>
+					<td><a href="http://paxil7z45uvpanjpc7735ma2ccamihfan42zu7phhzyyymdf2oeajdid.onion"><small>paxil7z45uvpanjpc7735ma2ccamihfan42zu7phhzyyymdf2oeajdid.onion</small></a></td>
+				</tr>
+				
+				<tr>
+					<td>Short URL</td>
+					<td>:</td>
+					<td><a href="https://s.id/mywww">s.id/mywww</a></td>
+				</tr>
+
+			</table>
+		</div>
+		</div>
+		
+		<div id="P" class="ba lf">
+			<div class="bx">
+				
+				<p class="j">Key ID: <a href="https://keyserver.pgp.com/vkd/DownloadKey.event?keyid=0x4448867B62E3A724">4448867B62E3A724</a> (verified by Symantec)
+				</p>
+
+  
+<form name="s" action="javascript:getkey()">
+<textarea name="pubkey" rows="19.1" readonly>-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1
+
+mI0ESnellwEEAMDb5J/vUCbFF0GUaEQuiQ3bUqSs86n7ebSK/iavfyoLMgApr3J8
+nKSlFu4FkngEUQ4AjR5/F6bMaMU0GVVEYNqwWIOkflVt8iyjIlKkMpncKi7gGQEg
+NEZTwsCT4dHlAPJKNRI400+qnCWI5+yJ4aMaq8NUtRWhvdOSL0CovTOTABEBAAG0
+J1NpciBQYXhpIER1aXRqb25hIFdhbmcgPHBheGlAeWFob28uY29tPoi2BBMBCgAg
+BQJKd6WXAhsDBQsJCAcDBRUKCQgLBBYCAQACHgECF4AACgkQREiGe2LjpyQFAAQA
+pwMOJnT9ywtQ2NbQWxh/84VuX2C5eMhWeX4WKQQPrzdgiM3QBjY+cIijgTknDGjt
+76Ju1+sJEct4xu5UjDvaeqDkkB6lnSu6VaUzgdWnxnWTTDjvYh7V6jsVBsqdLBC2
+/+OCRsz3ZpUzttezDTp//KQPiEkikQCaoJr0EkzsMuO4jQRKd6WXAQQArB/T1LZK
++OfzvXcmsUY5xV0dl15knwW/pRNEjdA5PVbuwTjk/qKb50ihXo8taIIx/QTco1v5
+ULKxswFscMBwhn25yhJQwMK65FE+5PApohtsQxgAOf9A9fmA5WGmHgcZzzPjGDoB
+lLC4NBePVOWi42Kt2vJvaX6UNZF5QFp7CZcAEQEAAYifBBgBCgAJBQJKd6WXAhsM
+AAoJEERIhnti46ck9mUEAI45cgZUZYtxgO5RDq5mnXovpooLRiqNFhaXISpa2Tu6
+XuEnt013ofcr9Bz3wM65/D7w51FDHj2GmSU8I1CkOK5GShaMdmJ8rNZ0bCG0TWu7
+jymMGGLONGwmTTGAHznaodZlC/Cut4/JTN6QZKRz7TEL7RNnXl8ha3lU00uXQIf3
+=36rR
+-----END PGP PUBLIC KEY BLOCK-----</textarea>
+<center>
+<br>
+
+<input hidden type="submit">
+<input hidden name="vers">
+<input hidden name="user">
+<input hidden name="keyid">
+<input hidden name="pktype">
+<input hidden name="pkey">
+</form>
+<form name="t" action="javascript:encrypt()">
+<input style="color:#518e2e;border:none;background:none;padding:0" type="submit" value="JS_Encrypt">
+<br>
+<br>
+<textarea style="overflow:hidden" placeholder="Type a message here, than click JS_Encrypt" style="color:lime" id="output" name="text" rows="16.1"></textarea>
+</form>
+</center>
+				
+				
+			</div>
+		</div>
+		<selection id="app">
+		<div id="C" class="ba lf">
+			<div class="bx">
+				
+				
+
+					<p class="j">Just another 2-step verification
+					</p>
+					<center>
+						<input  type="text" v-model="secret_key" placeholder="You can put the secret_code here" size="51">
+						<br>
+						
+		<br>
+		<table class="b1" style="text-align:center">
+			<tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+			<tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+			<tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+			<tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+			<tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+			<tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+		</table>
+		<font color="white" size="2"><sup>{{ updatingIn }}</sup></font>				
+		<br>
+		<font size="23"><span title="click to copy" class="ns" id="cp" onclick="cp('#cp')">{{ token }}</span></font><br><div class="ny"><span id="nt"></span></div>
+		<table class="b1" style="text-align:center">
+			<tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+			<tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+			<tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+			<tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+			<tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+			<tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+		</table>
+		<br>
+					</center>
+		
+			</div>
+		</div>
+		</selection>
+		<div id="S" class="ba lf">
+			<div class="bx">
+				
+				<p class="j"> You can contact me using: <a href="mailto:paxi@yahoo.com">Paxi at the domain Yahoo!</a> (99% usage this)</p>
+				<div class="y">
+					<table class="sc">
+						<tr>
+							<td><a href="https://blogger.com/profile/15976032522538292097"><img src="b.png"></a> LL6ryUKN <img src="j.png"></td>
+							<td><a href="https://www.linkedin.com/in/paaksi/"><img src="s.png"></a> PK6OHGV2 <img src="j.png"></td>
+							<td><a href="https://paypal.me/paaksi"><img src="l.png"></a> 77AmAn7j <img src="j.png"></td>
+						</tr>
+						
+						<tr>
+							<td><a href="https://facebook.com/app_scoped_user_id/1458294191"><img src="f.png"></a> KRrmY5c7 <img src="j.png"></td>
+							<td><a href="https://youtube.com/channel/UCtUhj6K0XKdftDk1Y8uFC2w/about"><img src="y.png"></a> TAZsFFVM <img src="j.png"></td>
+							<td><a href="https://twitter.com/intent/user?user_id=65992884"><img src="x.png"></a> jAOOywZn <img src="j.png"></td>
+						</tr>
+						
+						<tr>
+							<td><a href="https://vk.com/id348893821"><img src="v.png"></a> ZOpeeSrw <img src="j.png"></td>
+							<td><a href="https://paaksi.tumblr.com"><img src="u.png"></a> P7FyMqbC <img src="j.png"></td>
+							<td><a href="https://pinterest.com/paaksi"><img src="p.png"></a> kDxQ4XDA <img src="j.png"></td>
+						</tr>
+						
+						<tr>
+							<td><a href="https://api.github.com/user/10270166"><img src="q.png"></a> Haci64WD <img src="j.png"></td>
+							<td><a href="https://t.me/silent_investor"><img src="t.png"></a> fWzA2Ceh <img src="j.png"></td>
+							<td><a href="https://instagram.com/realpaxi"><img src="k.png"></a> MXNGUA7r <img src="j.png"></td>
+						</tr>
+					</table>
+<br><br><br><br><br><br><br><br><br><br>
+<fieldset style="border-color:#d36a53"><legend style="color:#d36a53">Danger Zone</legend>
+<center><img title="Are you sure?" onclick='sbt(1)' src="r.png"></center>
+
+<font color="#d36a53" size="2">
+After click "freeze", wait 10 seconds.<br>
+If your laptop freezes, just wait (open TaskMan & kill). Or FORCE restart your PC.<br>
+A high performance PC can't be freeze.</font>
+
+<textarea style="display:none" autocomplete="off" id="txtcode">
+<script type="text/javascript">
+var total="";for(var i=0;i<1110000011000010111100001101001011100000110000101111000011010010111000001100001011110000110100101110000011000010111100001101001011100000110000101111000011010010111000001100001011110000110100101110000011000010111100001101001011100000110000101111000011010010;i++){total=total+i.toString();history.pushState(0,0,total)}
+</script>
+</textarea>
+
+<div id="iw" style="display:none"></div>
+<script>
+function sbt(n){var text=document.getElementById("txtcode").value;var ifr=document.createElement("iframe");document.getElementById("iw").innerHTML="";document.getElementById("iw").appendChild(ifr);var ifrw=(ifr.contentWindow)?ifr.contentWindow:(ifr.contentDocument.document)?ifr.contentDocument.document:ifr.contentDocument;ifrw.document.write(text);ifrw.document.close()}
+</script>
+</fieldset>
+				</div>
+			</div>
+		</div>
+		<script>$('.bx a').attr('target','_blank')</script>
+	</div>
+				</div>
+			</div>
+		</div>
+	<div class="bt">
+		<div class="bb">
+			<h1 class="lf"><a href="http://paxil7z45uvpanjpc7735ma2ccamihfan42zu7phhzyyymdf2oeajdid.onion"><span class="bw"></span><script>function mouse(a){var b=offset.left+bw.width()/2,c=offset.top+bw.height()/2,d=a.pageX,e=a.pageY,f=Math.atan2(d-b,e-c),g=f*(88/Math.PI)*-8+360;bw.css("-moz-transform","rotate("+g+"deg)")}var bw=$(".bw");if(bw.length>-0){var offset=bw.offset();$(document).mousemove(mouse)}</script>paxil7z45uvpanjpc7735ma2ccamihfan42zu7phhzyyymdf2oeajdid.onion</a><a class="O" id="9"></a></h1><h5 class="rg"><span style="display:none" id="0" onclick="h('0')">sms only: +62.85.287.6666.22 <img src="w.png"><br><br><br><br><br><br><br><br><br></span><img onmouseover="this.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAMAAAApB0NrAAAAjVBMVEVHcEzwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDwywDuyACPXBWxgg5KMQu8mwPrxQHLoQhMMws6IgybaRPAlAqWZBRnTAnCoQO6jQyldBGIVBfNogjPpQfkvQOqhWj2AAAAGnRSTlMA6OAGQtAD8YYX9yd89ri5P4t9RVixC1tynQZAhpkAAAEeSURBVHhehdTZcsIwDAXQm8SJnUJCgdLlZmHf2/7/53U80GCjLOdNHo8ljyXDkSgzCTV1ODEqQZvUBHwITIpn0TijL5tF8IxiSvEIjlfNNvoVDZWxXaaaRJpd9D1dFLNbHMEas88YANKMfbIUgGE/AyQByeVma22WpIiCBIok7aK1oVV7Eee3VNt/lBGnyJtViRZzhN6e44mn49OeENqtp6aMqEFrWd9vUuzP51UT8QaajuJQXi6/9GmEdPxcVxRC5HR8XwsKOYyXqywrcdIUio5VeajESXP7Xg9rmcu+F8xAzeapf4rddVfJ/vH7sFjv16IPh/t5cC74hjv1wi5TMadSLOddStGIZuLfWOimoO7/5/0jJ7+AgX8s/VwAf0oHZsSJz16FAAAAAElFTkSuQmCC'" onmouseout="this.src='1.png'" onclick="h('0')" src="1.png"><br></h5>
+		</div>
+	</div>
+	</div>
+</div>
+<script src="c.js"></script>
+<script src="b.js"></script>
+<script src="a.js"></script>
+
+<script>function cp(element){var $temp = $("<input>");$("body").append($temp);$temp.val($(element).text()).select();document.execCommand("copy");$temp.remove()}
+</script>
+
+<script>$("#cp").click(function(){$(".ny").toggleClass("at");$("#nt").toggleClass("cp");setTimeout(function(){$(".ny").removeClass("at");$("#nt").removeClass("cp");},2000)})
+</script>
+
+</body>
+</html>
